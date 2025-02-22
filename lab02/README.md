@@ -95,7 +95,7 @@ mkdir images
 <table>
   <tr>
     <td width="150">
-      <img src="/images/avatar.jpg" width="120" height="120" style="border-radius: 50%;" alt="Avatar">
+      <img src="/lab02/images/avatar.jpg" width="120" height="120" style="border-radius: 50%;" alt="Avatar">
     </td>
     <td>
       <h2>Hey 👋, I'm Alexandru Straton!</h2>
@@ -118,27 +118,27 @@ mkdir images
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="/images/sql.svg" width="48" height="48" alt="SQL" />
+      <img src="/lab02/images/sql.svg" width="48" height="48" alt="SQL" />
       <br>SQL
     </td>
     <td align="center" width="96">
-      <img src="/images/dot_net.svg" width="48" height="48" alt="C#" />
+      <img src="/lab02/images/dot_net.svg" width="48" height="48" alt="C#" />
       <br>C#
     </td>
     <td align="center" width="96">
-      <img src="/images/java.svg" width="48" height="48" alt="Java" />
+      <img src="/lab02/images/java.svg" width="48" height="48" alt="Java" />
       <br>Java
     </td>
     <td align="center" width="96">
-      <img src="/images/js.svg" width="48" height="48" alt="JavaScript" />
+      <img src="/lab02/images/js.svg" width="48" height="48" alt="JavaScript" />
       <br>JavaScript
     </td>
     <td align="center" width="96">
-      <img src="/images/css.svg" width="48" height="48" alt="CSS" />
+      <img src="/lab02/images/css.svg" width="48" height="48" alt="CSS" />
       <br>CSS
     </td>
     <td align="center" width="96">
-      <img src="/images/html.svg" width="48" height="48" alt="HTML" />
+      <img src="/lab02/images/html.svg" width="48" height="48" alt="HTML" />
       <br>HTML
     </td>
   </tr>
@@ -148,11 +148,11 @@ mkdir images
 <table>
   <tr>
     <td align="center" width="150">
-      <img src="/images/spring.png" width="48" height="48" alt="Spring Framework" />
+      <img src="/lab02/images/spring.png" width="48" height="48" alt="Spring Framework" />
       <br>Spring Framework
     </td>
     <td align="center" width="150">
-      <img src="/images/python.svg" width="48" height="48" alt="Python" />
+      <img src="/lab02/images/python.svg" width="48" height="48" alt="Python" />
       <br>Python
     </td>
   </tr>
@@ -162,11 +162,11 @@ mkdir images
 <table>
   <tr>
     <td align="center" width="150">
-      <img src="/images/go.png" width="48" height="48" alt="Go" />
+      <img src="/lab02/images/go.png" width="48" height="48" alt="Go" />
       <br>Go
     </td>
     <td align="center" width="150">
-      <img src="/images/rust.png" width="48" height="48" alt="Rust" />
+      <img src="/lab02/images/rust.png" width="48" height="48" alt="Rust" />
       <br>Rust
     </td>
   </tr>
@@ -176,27 +176,27 @@ mkdir images
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="/images/vs_code.svg" width="48" height="48" alt="VS Code" />
+      <img src="/lab02/images/vs_code.svg" width="48" height="48" alt="VS Code" />
       <br>VS Code
     </td>
     <td align="center" width="96">
-      <img src="/images/vs_studio.svg" width="48" height="48" alt="Visual Studio" />
+      <img src="/lab02/images/vs_studio.svg" width="48" height="48" alt="Visual Studio" />
       <br>Visual Studio
     </td>
     <td align="center" width="96">
-      <img src="/images/android_studio.svg" width="48" height="48" alt="Android Studio" />
+      <img src="/lab02/images/android_studio.svg" width="48" height="48" alt="Android Studio" />
       <br>Android Studio
     </td>
     <td align="center" width="96">
-      <img src="/images/my_sql.svg" width="48" height="48" alt="MySQL Workbench" />
+      <img src="/lab02/images/my_sql.svg" width="48" height="48" alt="MySQL Workbench" />
       <br>MySQL Workbench
     </td>
     <td align="center" width="96">
-      <img src="/images/photoshop.svg" width="48" height="48" alt="Photoshop" />
+      <img src="/lab02/images/photoshop.svg" width="48" height="48" alt="Photoshop" />
       <br>Photoshop
     </td>
     <td align="center" width="96">
-      <img src="/images/debian.svg" width="48" height="48" alt="Debian" />
+      <img src="/lab02/images/debian.svg" width="48" height="48" alt="Debian" />
       <br>Debian
     </td>
   </tr>
@@ -206,7 +206,7 @@ mkdir images
 <table>
   <tr>
     <td align="left" width="24">
-      <img src="/images/outlook.png" width="24" height="24" alt="Outlook" />
+      <img src="/lab02/images/outlook.png" width="24" height="24" alt="Outlook" />
     </td>
     <td align="left">
       <a href="mailto:straton.alexandru@usm.md">straton.alexandru@usm.md</a>
