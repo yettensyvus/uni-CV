@@ -90,7 +90,7 @@ mkdir images
 
   > Introducem informație în README.md
 
-    ## Hey 👋, I'm Alexandru Straton!
+  ## Hey 👋, I'm Alexandru Straton!
   
   <table>
     <tr>
