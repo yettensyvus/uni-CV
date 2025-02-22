@@ -1,22 +1,21 @@
 # IWNO2: Lucrul cu GIT
 
-* **Autor:** Straton Alexandru
-* **Grupa:** IA-2302
-* **Data:** 22.02.2025
+* **Autor:** Straton Alexandru  
+* **Grupa:** IA-2302  
+* **Data:** 22.02.2025  
 
 ## Scop
 Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestionarea și urmărirea modificărilor codului sursă într-un mediu colaborativ.
 
+### 1. Descărcarea și Instalarea [GIT](https://git-scm.com/downloads)
 
-### 1. Descarcarea si Instalarea [GIT](https://git-scm.com/downloads)
-
-- **Descarcarea [GIT](https://git-scm.com/downloads) pentru OS Windows**
-  - Descarcarea GIT
+- **Descărcarea [GIT](https://git-scm.com/downloads) pentru OS Windows**
+  - Descărcarea GIT
 
   Am accesat site-ul oficial [GIT](https://git-scm.com/downloads) și am descărcat `Latest Source Release` pentru OS Windows.
 
-  ![](images/brave_IRUEOxxNe0.png)
-  ![](images/brave_zHorv5O4M3.png)
+  ![](images/brave_IRUEOxxNe0.png)  
+  ![](images/brave_zHorv5O4M3.png)  
 
   După finalizarea descărcării, trecem la instalare.
 
@@ -24,82 +23,79 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
 
   - Instalarea GIT
 
-  > Parcurgem conform pasilor de mai jos
+  > Parcurgem conform pașilor de mai jos
 
-  ![](images/Git-2.48.1-64-bit.tmp_Fm9MEftuUM.png)
-  ![](images/Git-2.48.1-64-bit.tmp_5A2pjlwGw6.png)
+  ![](images/Git-2.48.1-64-bit.tmp_Fm9MEftuUM.png)  
+  ![](images/Git-2.48.1-64-bit.tmp_5A2pjlwGw6.png)  
 
-
-### 2. Registrarea contului [GitHub](https://github.com/)
- - Registrarea contului [GitHub](https://github.com/)
+### 2. Înregistrarea contului [GitHub](https://github.com/)
+ - Înregistrarea contului [GitHub](https://github.com/)
 
   Am accesat site-ul oficial [GitHub](https://github.com/).
 
-  ![](images/brave_57v2kGussB.png)
+  ![](images/brave_57v2kGussB.png)  
 
-  > Tastam pe buttonul `Sign up`
+  > Tastăm pe butonul `Sign up`
 
-  ![](images/brave_tezD1pDvHu.png)
+  ![](images/brave_tezD1pDvHu.png)  
 
+  > Introducem credențialele contului
 
-  > Introducem credintialele account - ului
+  ![](images/brave_xN23rmVojz.png)  
 
-  ![](images/brave_xN23rmVojz.png)
+  > Confirmăm cu adăugarea codului de pe email
 
+  ![](images/brave_t2VuApDUoq.png)  
 
-  > Confirmam cu adaugarea codului de pe email
+  > Ne logăm cu login și parolă
 
-   ![](images/brave_t2VuApDUoq.png)
+  ![](images/brave_8NkT38VX9Q.png)  
 
-  > Ne logam cu login si parola
-
-   ![](images/brave_8NkT38VX9Q.png)
-
-  Am finalizat crearea account-ului GitHub.
-
+  Am finalizat crearea contului GitHub.
 
 ### 3. Crearea unui proiect
  - Crearea unui *repository* pe GitHub
-    - Tastam butonul `Create` repository
-      ![](images/brave_QAPT53Jwz5.png)
+    - Tastăm butonul `Create repository`  
+      ![](images/brave_QAPT53Jwz5.png)  
 
-    - Introducem datele repozitoriului
-      ![](images/brave_Nlod4yvOka.png)
+    - Introducem datele repository-ului  
+      ![](images/brave_Nlod4yvOka.png)  
 
-### 4. Clonarea repozitoriului pe calculatorul local
- 1. In repositoriu creat tastam Code -> Local -> Clone -> HTTPS, copiem link - ul.
-      ![](images/brave_mV2xh2XhXF.png)
+### 4. Clonarea repository-ului pe calculatorul local
+ 1. În repository-ul creat tastăm Code -> Local -> Clone -> HTTPS, copiem link-ul.  
+      ![](images/brave_mV2xh2XhXF.png)  
 
- 2. Deschidem Visual Studio, sau alt IDE dorit.
-      ![](images/Code_hHy9M8at6v.png)
+ 2. Deschidem Visual Studio sau alt IDE dorit.  
+      ![](images/Code_hHy9M8at6v.png)  
 
-      > Introducem comanda pentru clonare in consola
+      > Introducem comanda pentru clonare în consolă
 
-    ```bash
-      git clone https://github.com/straton-alex/straton-alex.git
-    ```
+```bash
+git clone https://github.com/straton-alex/straton-alex.git
+```
 
-    > Cream o ramura noua `lab01`
+  > Creăm o ramură nouă `lab01`
 
-    ```bash
-      git checkout -B lab01
-    ```
+```bash
+git checkout -B lab01
+```
 
-    > In folderul clonat, cream alt folder `images`
+  > În folderul clonat, creăm alt folder `images`
 
-    ```bash
-    mkdir images
-    ```
+```bash
+mkdir images
+```
+
   3. Redactarea README.md
 
-  > Introducem informatie in README.md
+  > Introducem informație în README.md
 
-  ## Hey 👋, I'm Alexandru Straton!
+    ## Hey 👋, I'm Alexandru Straton!
   
   <table>
     <tr>
       <td width="150">
-        <img src="/images/avatar.jpg" width="120" height="120" style="border-radius: 50%;" alt="Avatar">
+        <img src="/lab02/images/avatar.jpg" width="120" height="120" style="border-radius: 50%;" alt="Avatar">
       </td>
       <td>
         <h2>Hey 👋, I'm Alexandru Straton!</h2>
@@ -121,37 +117,37 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
     <tr>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/sql.svg" width="48" height="48" alt="SQL" />
+          <img src="/lab02/images/sql.svg" width="48" height="48" alt="SQL" />
         </a>
         <br>SQL
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/dot_net.svg" width="48" height="48" alt="C#" />
+          <img src="/lab02/images/dot_net.svg" width="48" height="48" alt="C#" />
         </a>
         <br>C#
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/java.svg" width="48" height="48" alt="java" />
+          <img src="/lab02/images/java.svg" width="48" height="48" alt="java" />
         </a>
         <br>JAVA
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/js.svg" width="48" height="48" alt="js" />
+          <img src="/lab02/images/js.svg" width="48" height="48" alt="js" />
         </a>
         <br>JS
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/css.svg" width="48" height="48" alt="css" />
+          <img src="/lab02/images/css.svg" width="48" height="48" alt="css" />
         </a>
         <br>CSS
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/html.svg" width="48" height="48" alt="html" />
+          <img src="/lab02/images/html.svg" width="48" height="48" alt="html" />
         </a>
         <br>HTML
       </td>
@@ -163,38 +159,38 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
     <tr>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/vs_code.svg" width="48" height="48" alt="vs-code" />
+          <img src="/lab02/images/vs_code.svg" width="48" height="48" alt="vs-code" />
         </a>
         <br>VS Code
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/vs_studio.svg" width="48" height="48" alt="vs-studio" />
+          <img src="/lab02/images/vs_studio.svg" width="48" height="48" alt="vs-studio" />
         </a>
         <br>VS Studio
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/android_studio.svg" width="48" height="48" alt="android-studio" />
+          <img src="/lab02/images/android_studio.svg" width="48" height="48" alt="android-studio" />
         </a>
         <br>Android
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/my_sql.svg" width="48" height="48" alt="mySQL-workbench" />
+          <img src="/lab02/images/my_sql.svg" width="48" height="48" alt="mySQL-workbench" />
         </a>
         <br>MySQL
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/photoshop.svg" width="48" height="48" alt="photoshop" />
+          <img src="/lab02/images/photoshop.svg" width="48" height="48" alt="photoshop" />
         </a>
         <br>Photoshop 
       </td>
       </td>
       <td align="center" width="96">
         <a href="#straton-alex">
-          <img src="/images/debian.svg" width="48" height="48" alt="debian" />
+          <img src="/lab02/images/debian.svg" width="48" height="48" alt="debian" />
         </a>
         <br>Debian
   </table>
@@ -204,11 +200,11 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
   <table>
     <tr>
       <td align="center" width="150">
-        <img src="/images/spring.png" width="48" height="48" alt="Spring Framework" />
+        <img src="/lab02/images/spring.png" width="48" height="48" alt="Spring Framework" />
         <br>Spring Framework
       </td>
       <td align="center" width="150">
-        <img src="/images/python.svg" width="48" height="48" alt="Python" />
+        <img src="/lab02/images/python.svg" width="48" height="48" alt="Python" />
         <br>Python
       </td>
     </tr>
@@ -219,11 +215,11 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
   <table>
     <tr>
       <td align="center" width="150">
-        <img src="/images/go.png" width="48" height="48" alt="Go" />
+        <img src="/lab02/images/go.png" width="48" height="48" alt="Go" />
         <br>Go
       </td>
       <td align="center" width="150">
-        <img src="/images/rust.png" width="48" height="48" alt="Rust" />
+        <img src="/lab02/images/rust.png" width="48" height="48" alt="Rust" />
         <br>Rust
       </td>
     </tr>
@@ -234,35 +230,33 @@ Familiarizarea cu utilizarea unui sistem de control al versiunilor pentru gestio
   <table>
     <tr>
       <td align="left" width="24">
-        <img src="/images/outlook.png" width="24" height="24" alt="Outlook" />
+        <img src="/lab02/images/outlook.png" width="24" height="24" alt="Outlook" />
       </td>
       <td align="left">
         <a href="mailto:straton.alexandru@usm.md">straton.alexandru@usm.md</a>
       </td>
     </tr>
   </table>
-  
 
 ### 5. Publicarea codului pe GitHub
 
-> Publicam codul pe GitHub
+> Publicăm codul pe GitHub
 
 ```bash
-# add all files to tracking
+# adăugăm toate fișierele pentru tracking
 git add *
-# check status
+# verificăm statusul
 git status
-# create a commit
+# creăm un commit
 git commit -m "structure defined"
-# push commit to remote repository
+# împingem commit-ul în repository-ul remote
 git push -u origin lab01
-#merge lab01
+# realizăm merge pentru lab01
 git merge lab01
-#push
+# împingem în branch-ul principal
 git push origin main
 ```
-![](images/Code_BQu4zAxehW.png)
-
+![](images/Code_BQu4zAxehW.png)  
 
 ### 6. Concluzie
 
@@ -270,11 +264,12 @@ Prin această lucrare, am reușit să ne familiarizăm cu utilizarea GIT ca sist
 
 În plus, am utilizat Visual Studio Code pentru a lucra cu repository-ul local și am aplicat comenzi GIT fundamentale precum `clone`, `checkout`, `commit`, `push` și `merge`. Această experiență contribuie la dezvoltarea abilităților necesare pentru colaborarea eficientă în proiecte software, facilitând versionarea codului și organizarea muncii într-un mediu profesional.
 
+> Link-ul către repository [Alex Straton](https://github.com/straton-alex/straton-alex)
 
 ### 7. Bibliografie
 
 *1. Curs Moodle USM, Containerizarea și Virtualizarea*
 
-*2. GitHub Docs – https://docs.github.com/
+*2. GitHub Docs – https://docs.github.com/*
 
-*3. Markdown Guide – https://www.markdownguide.org/
+*3. Markdown Guide – https://www.markdownguide.org/*
